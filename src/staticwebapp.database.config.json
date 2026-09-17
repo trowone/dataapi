@@ -29,5 +29,15 @@
       "mode": "production"
     }
   },
-  "entities": {}
+  "entities": {
+    "Employees": {
+      "source": "dbo.Employees",
+      "permissions": [
+        {
+          "actions": ["create", "read", "update", "delete"],
+          "role": "anonymous"
+        }
+      ]
+    }
+  }
 }
