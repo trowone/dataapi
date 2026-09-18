@@ -24,7 +24,7 @@
     },
     "host": {
       "cors": {
-        "origins": [],
+        "origins": ["https://polite-beach-0dd207e10.3.azurestaticapps.net"],
         "allow-credentials": false
       },
       "authentication": {
